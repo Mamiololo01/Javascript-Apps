@@ -1,0 +1,74 @@
+body{
+    padding: 30px;
+    background-color:lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.blue{
+    color: chocolate;
+}
+
+h1{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: cyan;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+
+#ballon-gallery div{
+    height: 121px;
+    width: 119px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    border-radius: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin: 2.5px 5px 2.5px 0px;
+    color: lightcyan;
+}
+
+#ballon-gallery div:nth-child(3n) {
+    background: seagreen;
+    color: red;
+}
+
+#ballon-gallery div:nth-child(3n-1) {
+    background: seagreen;
+    color: blanchedalmond;
+}
+
+#ballon-gallery div:nth-child(3n) {
+    background: seagreen;
+    color: red;
+}
+
+#ballon-gallery div:nth-child(5n) {
+    background: seagreen;
+    color: yellow;
+}
+
+
+#ballon-gallery div:nth-child(12) {
+    background: seagreen;
+    color: green;
+}
+
+#ballon-gallery div:nth-child(10n) {
+    background: blueviolet;
+    color: brown;
+}
+
+#yay-no-ballons{
+    display: none;
+    font-size: 100px;
+    color: crimson;
+}
