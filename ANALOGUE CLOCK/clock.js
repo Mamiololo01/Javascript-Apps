@@ -10,7 +10,6 @@ function drawClock() {
     drawNumbers(ctx, radius);
     drawTime(ctx, radius);
 
-
 }
 
 function drawFace(ctx, radius){
